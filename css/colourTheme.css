@@ -1,0 +1,17 @@
+.w3-lightest-black {color:#C8C8C8 !important; background-color:#121214 !important}
+.w3-middle-black {color:#C8C8C8 !important; background-color:#08080A !important}
+.w3-darkest-black {color:#C8C8C8 !important; background-color:#000000 !important}
+.w3-lightest-green {color:#C8C8C8 !important; background-color:#011A01 !important}
+.w3-darkest-green {color:#C8C8C8 !important; background-color:#123B1A !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fefbf5 !important}
+.w3-theme-dark {color:#fff !important; background-color:#936b0e !important}
+.w3-theme-action {color:#fff !important; background-color:#936b0e !important}
+
+.w3-theme {color:#000 !important; background-color:#efc050 !important}
+.w3-text-theme {color:#efc050 !important}
+.w3-border-theme {border-color:#efc050 !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
+.w3-hover-text-theme:hover {color:#efc050 !important}
+.w3-hover-border-theme:hover {border-color:#efc050 !important}
