@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/colourTheme.css">
+<link rel="stylesheet" href="css/DarkTheme.css">
 </head>
 
 <style>
@@ -19,27 +19,34 @@
 
 
 
-<body class="w3-lightest-black">
+<body class="w3-background-main">
 
 
 
 <!-- Navigation (Stays on Top) -->
-<div id="navBar" class="w3-top w3-bar w3-darkest-green">
-  <a href="#home" class="w3-bar-item w3-button w3-margin-left">Home</a>
-  <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-  <a href="#about" class="w3-bar-item w3-button">About</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
+  <div id="navBar" class="w3-top w3-bar w3-darkest-green">
+    <a href="#home" class="w3-bar-item w3-button w3-margin-left">Home</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <div class="w3-dropdown-hover w3-right">
+      <button class="w3-button">Dropdown</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#a" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#b" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#c" class="w3-bar-item w3-button">Link 3</a>
+      </div>
+    </div>
+  </div>
 
 
 
 
 <!-- Start content -->
-<div id="home" class="w3-content w3-lightest-black">
+<div id="home" class="w3-content w3-background-main">
 
 
-
-<div id="logo" class="w3-header w3-display-container w3-lighter-black" style="height:500px;"width="100%">
+<div id="logo" class="w3-header w3-display-container w3-background-sub2" style="height:500px;"width="100%">
 <img id="l" class="w3-display-middle" src="assets/img/logo.png" width="300px">
 <div class="w3-display-bottommiddle w3-container">
     <h1 class="w3-header w3-center">Echo Garratt</h1>
