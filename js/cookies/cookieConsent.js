@@ -1,3 +1,7 @@
+//for testing:
+//localStorage.removeItem('cookieconsent');
+//
+
 (function() {
 	if (!localStorage.getItem('cookieconsent')) {
 		document.body.innerHTML += '\
@@ -10,6 +14,22 @@
 			e.preventDefault();
 			document.querySelector('.cookieconsent').style.display = 'none';
 			localStorage.setItem('cookieconsent', true);
+
+
+
+      //get value of toggle switch
+      setCookie();
 		};
 	}
 })();
+
+
+function initialCookie()
+{
+	var checkBox = document.getElementById("darkModeSwitch");
+  if (checkBox.checked == true){
+    setCookie("darkmode", true);
+  } else {
+		setCookie("darkmode", false);
+  }
+};
