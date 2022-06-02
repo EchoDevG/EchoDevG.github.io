@@ -8,7 +8,7 @@ function setCookie(cname, darkmode) {
     let expires = "expires="+ d.toUTCString();
 
 
-    console.log(cname + '=' + darkmode + '; path=/;');
+    console.log(cname + '=' + darkmode + "; "+ expires + ' path=/;');
   document.cookie = (cname + '=' + darkmode + "; "+ expires + ' path=/;');
 };
 };
