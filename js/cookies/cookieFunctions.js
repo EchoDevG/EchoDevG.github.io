@@ -1,7 +1,8 @@
 function setCookie(cname, darkmode) {
   if(localStorage.getItem('cookieconsent')!=null)
   {
-  document.cookie = cname + '=' + darkmode + ' path=/;'
+    console.log(cname + '=' + darkmode + '; path=/;');
+  document.cookie = (cname + '=' + darkmode + ' path=/;');
 };
 };
 
