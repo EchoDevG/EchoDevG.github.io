@@ -2,6 +2,7 @@ function checkDarkMode(){
   console.log("ran");
   var darkmode = getCookie("darkmode");
   console.log(darkmode);
+  console.log(typeof(darkmode));
 if(darkmode!=""){
   if(darkmode == "true")
   {
