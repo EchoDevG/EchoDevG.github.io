@@ -3,7 +3,7 @@ function checkDarkMode(){
   var darkmode = getCookie("darkmode");
   console.log(darkmode);
 if(darkmode!=""){
-  if(darkmode == "true")
+  if(darkmode == 1)
   {
     document.getElementById("darkModeSwitch").checked = true;
     console.log("dark mode");
