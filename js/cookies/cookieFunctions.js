@@ -1,8 +1,15 @@
 function setCookie(cname, darkmode) {
   if(localStorage.getItem('cookieconsent')!=null)
   {
+
+    const d = new Date();
+    var exdays = 100; //days till expiry
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    let expires = "expires="+ d.toUTCString();
+
+
     console.log(cname + '=' + darkmode + '; path=/;');
-  document.cookie = (cname + '=' + darkmode + ' path=/;');
+  document.cookie = (cname + '=' + darkmode + "; "+ expires + ' path=/;');
 };
 };
 
